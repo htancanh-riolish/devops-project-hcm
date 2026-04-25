@@ -1,4 +1,7 @@
 const express = require('express');
+
+require('dotenv').config();
+
 const { Pool } = require('pg');
 const cors = require('cors');
 const helmet = require('helmet');
